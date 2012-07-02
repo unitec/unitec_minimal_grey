@@ -1,0 +1,188 @@
+/******** Core ********/
+a {
+    color: #444444;
+}
+
+a:hover {
+    color: #000000;
+}
+
+/** Borders around forms **/
+.mform fieldset {
+    border-color: #444444;
+}
+
+/** Tables on admin pages **/
+.path-admin .generaltable tr {
+    border-top: 1px solid #444444;
+    border-bottom: 1px solid #444444;
+}
+
+/** Descriptions on admin pages **/
+.path-admin .form-description {
+    color: #444444;
+}
+
+/******** Blocks ********/
+.block .content a {
+    color: #444444;
+}
+
+.block .content a:hover {
+    color: #999999;
+}
+
+/** Borders and backgrounds **/
+.block {
+    border-color: #CCCCCC;
+    box-shadow: 3px 3px 3px #E6E6E6;
+}
+
+.calendartable .weekdays {
+    border-top: 2px solid #CCCCCC;
+    border-bottom: 2px solid #CCCCCC;
+}
+
+/******** Course ********/
+/**  Highlighted course box **/
+.course-content .current {
+    background-color: #7F7F7F;
+    border-color: #7F7F7F;
+    color: #FFFFFF;
+}
+
+/** Formatting for hidden course box **/
+.course-content .hidden {
+    opacity: 0.5;
+    border-color: #CCCCCC;
+    color: #CCCCCC;
+}
+
+/******** Custom menu ********/
+#custommenu .yui3-menuitem-active {background-color:#CCCCCC;}
+
+#custommenu {
+    background-color: #FFFFFF;
+    border: 1px #CCCCCC solid;
+}
+
+.yui3-skin-sam #page .yui3-menu-label,
+.yui3-skin-sam #page .yui3-menuitem-content  {
+    color: #000000;
+}
+
+.custom_menu_submenu .yui3-menu-label,
+.custom_menu_submenu .yui3-menuitem-content {
+    color: #000 !important;
+    text-shadow: none !important;
+}
+
+.yui3-skin-sam #page .yui3-menu-label.yui3-menu-label-active,
+.yui3-skin-sam #page .yui3-menu-label.yui3-menu-label-menuvisible,
+.yui3-skin-sam #page .yui3-menuitem-active .yui3-menuitem-content {
+    color: #000;
+    background-color: #CCCCCC;
+    border: 1px solid #B3B3B3 !important;
+}
+
+.yui3-skin-sam #page .yui3-menu-content,
+.yui3-skin-sam #page .yui3-menu-content,
+.yui3-skin-sam #page .yui3-menu .yui3-menu .yui3-menu-content,
+.yui3-skin-sam #page .yui3-menu-horizontal .yui3-menu-label,
+.yui3-skin-sam #page .yui3-menu-horizontal .yui3-menuitem-content  {
+    border: none !important;
+}
+
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menu-label,
+.yui3-skin-sam .yui3-menu-horizontal .yui3-menuitem-content {
+    border-color:#B3B3B3;
+    border-style:solid;
+    border-width:0px;
+}
+
+#page .custom_menu_submenu {
+    border: 1px solid #B3B3B3 !important;
+    box-shadow: 3px 3px 3px #E6E6E6;
+    background: #FFFFFF;
+}
+
+/******** Dock ********/
+#dock {
+    background-color: #FFFFFF;
+    border-color: #CCCCCC;
+}
+
+#dock .dockedtitle h2 {
+    color: #000000;
+}
+
+#dockeditempanel .dockeditempanel_content {
+    border-color: #CCCCCC;
+    box-shadow: 3px 3px 3px #E6E6E6;
+}
+
+#dockeditempanel .dockeditempanel_hd h2 {
+    color: #000000;
+}
+
+/******** Modules ********/
+/** Tab trees in all modules **/
+.tabtree li {
+    border-top: 1px solid #E6E6E6;
+    border-left: 1px solid #E6E6E6;
+    border-right: 1px solid #E6E6E6;
+}
+
+.tabtree ul {
+    border-bottom: 2px solid #E6E6E6;
+}
+
+/* Forum table */
+.forumheaderlist thead {
+    background-color: #FFFFFF;
+    color: #444444;
+}
+
+.path-mod-forum .forumheaderlist {
+    border-color: #444444;
+    box-shadow: 5px 5px 5px #E6E6E6;
+}
+
+.path-mod-forum .forumheaderlist td {
+    border-color: #E6E6E6;
+}
+
+/* Forum posts */
+.forumpost {
+    border-color: #E6E6E6;
+    box-shadow: 5px 5px 5px #E6E6E6;
+}
+
+.forumpost .header {
+    background-color: #FFFFFF;
+    color: #444444;
+}
+
+.forumpost .header a {
+    color: #444444;
+}
+
+/** Assignments **/
+/* Attempts table */
+#attempts tr {
+    border-top: 1px solid #E6E6E6;
+    border-bottom: 1px solid #E6E6E6;
+}
+
+/******** Navbar ********/
+.navbar {
+    color: #444444;
+}
+
+.navbar a {
+    color: #444444;
+}
+
+.navbar a:hover {
+    color: #999999;
+}
